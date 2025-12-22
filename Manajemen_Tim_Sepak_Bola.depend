@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1766232873 source:c:\users\msi gf63\documents\tel-u\semester 3\struktur data\tugas besar\manajemen_tim_sepak_bola\mll.cpp
+	"MLL.h"
+
+1766232847 c:\users\msi gf63\documents\tel-u\semester 3\struktur data\tugas besar\manajemen_tim_sepak_bola\mll.h
+	<iostream>
+	<string>
+	<limits>
+
+1766232562 source:c:\users\msi gf63\documents\tel-u\semester 3\struktur data\tugas besar\manajemen_tim_sepak_bola\main.cpp
+	<iostream>
+	"MLL.h"
+
