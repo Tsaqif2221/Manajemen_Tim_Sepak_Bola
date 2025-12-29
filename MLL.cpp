@@ -191,8 +191,13 @@ void setupInitialData(ListPosisi &L) {
     AddressPosisi GK = findPosisi(L, "Goalkeeper");
     insertLastPemain(GK, createElmPemain({"Rudi Garcia", 1, "Aktif"}));
 
-    AddressPosisi DEF = findPosisi(L, "Defender");
-    insertLastPemain(DEF, createElmPemain({"Arif Rahman", 5, "Aktif"}));
+    AddressPosisi DEF1 = findPosisi(L, "Defender");
+    insertLastPemain(DEF1, createElmPemain({"Arif Rahman", 5, "Aktif"}));
+    AddressPosisi DEF2 = findPosisi(L, "Defender");
+    insertLastPemain(DEF2, createElmPemain({"Dedi Kusn.", 8, "Aktif"}));
+
+    AddressPosisi MF = findPosisi(L,"Midfielder");
+    insertLastPemain(MF,createElmPemain({"Faisal Amir", 10, "Aktif"}));
 
     cout << "[INFO] Data awal berhasil dimuat." << endl;
 }
